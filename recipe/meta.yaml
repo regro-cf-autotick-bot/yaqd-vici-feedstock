@@ -1,5 +1,5 @@
 {% set name = "yaqd-vici" %}
-{% set version = "2021.2.0" %}
+{% set version = "2021.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yaqd-vici-{{ version }}.tar.gz
-  sha256: acc20446bead182cdf3fef6b372066228b87fa22d7b581f999f523a6d06a874d
+  sha256: d9d9954335cf819c155f63c0033b59d6e3b4316eb40d9abac9c1d94e9768132a
 
 build:
   number: 0
